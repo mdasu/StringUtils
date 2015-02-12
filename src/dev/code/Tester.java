@@ -7,7 +7,9 @@ public class Tester {
 
 		StringUtils su = new StringUtils();
 		s = "Was it Eliot's toilet I saw";
-		s = "A man, a plan, a canal – Panama";
+		//s = "A man, a plan, a canal – Panama";
+		s = "Doc Note: I dissent. A fast never prevents a fatness. I diet on cod";
+		s = "palindromeemordnilap";
 		if (su.isPalindrome(s)) {
 			System.out.println(s + " is a palindrome!!!");
 		} else {
